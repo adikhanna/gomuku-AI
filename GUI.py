@@ -5,7 +5,7 @@ import random
 class Game(object):
     block_size = 100
     def __init__(self, parent):
-        parent.title('Gomoku - villasr2 avkhann2 hornits2')
+        parent.title('Gomoku')
         self.parent = parent
 
         self.initialize_game()
